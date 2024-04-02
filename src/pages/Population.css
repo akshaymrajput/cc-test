@@ -1,0 +1,13 @@
+.graph-container {
+    width: 100%;
+}
+
+.graph-label {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.canvas-container {
+    height: 60vh;
+    background: #ffffff;
+}

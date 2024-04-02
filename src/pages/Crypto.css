@@ -1,0 +1,38 @@
+.crypto-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.crypto-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.crypto-container h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.disclaimer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .crypto-container h1 {
+        text-align: center;
+    }
+}
